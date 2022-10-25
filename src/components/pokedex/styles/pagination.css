@@ -1,0 +1,41 @@
+.pag{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px ;
+}
+
+.pag__container{
+    display: flex;
+    gap: 5px;
+}
+
+.pag__prev,
+.pag__next,
+.pag__page{
+    cursor: pointer;
+    width: 35px;
+    aspect-ratio: 1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 50ms  ease-in;
+}
+
+.pag__prev:hover,
+.pag__next:hover,
+.pag__page:hover{
+    filter: brightness(1.05);
+    transform: scale(1.2);
+    font-weight: 800;
+    transition: 50ms ease-in;
+}
+
+.pag__page-active{
+    background-color: var(--color-red);
+    color: white;
+    border-radius: 5px;
+}

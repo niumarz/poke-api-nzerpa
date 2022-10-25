@@ -1,0 +1,13 @@
+
+
+.select-1{
+    border-radius: 50%;
+    cursor:pointer;   
+    transition: 100ms ease-in;
+}
+
+.select-1{
+    filter: brightness(1.05);
+    transform: scale(1.02);
+    transition: 100ms ease-in;
+}
