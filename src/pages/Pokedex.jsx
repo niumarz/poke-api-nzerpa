@@ -4,7 +4,7 @@ import { useSelector } from 'react-redux'
 import InputSearch from '../components/pokedex/InputSearch'
 import Pagination from '../components/pokedex/Pagination'
 import PokeCard from '../components/pokedex/PokeCard'
-import SelectByType from '../components/pokedexid/SelectByType'
+import SelectByType from '../components/pokedexId/SelectByType'
 import './styles/pokedex.css'
 
 
@@ -50,12 +50,8 @@ const Pokedex = () => {
 
   return (
     <div>
-    {
-      isLoading ?
-      
-      <isLoading/>
-      
-      :
+    
+    
       
       <div className='pokemons'>
       <img className='pokemons__img' src="./pokeapi.png" alt="" />
